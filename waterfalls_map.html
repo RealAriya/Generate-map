@@ -1,0 +1,2852 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_98e3cacb109db714e91db5e3d8557b76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_98e3cacb109db714e91db5e3d8557b76" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_98e3cacb109db714e91db5e3d8557b76 = L.map(
+                "map_98e3cacb109db714e91db5e3d8557b76",
+                {
+                    center: [34.521939999999994, 50.994159999999994],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2b41704005ffbf5e2bc2d812f1f88a28 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2b41704005ffbf5e2bc2d812f1f88a28.addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var marker_7d399b993e32d850419aae4a121d47c3 = L.marker(
+                [36.2345, 51.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_18543fbce1046fc0b14ab8f38448a5b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d399b993e32d850419aae4a121d47c3.setIcon(icon_18543fbce1046fc0b14ab8f38448a5b4);
+        
+    
+        var popup_b7749e2f8e9bba47076b544403bcf936 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4a3db3339551ad59a2e4675e1f0ae30 = $(`<div id="html_c4a3db3339551ad59a2e4675e1f0ae30" style="width: 100.0%; height: 100.0%;">Lati Waterfall<br>Height: 100 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_b7749e2f8e9bba47076b544403bcf936.setContent(html_c4a3db3339551ad59a2e4675e1f0ae30);
+            
+        
+
+        marker_7d399b993e32d850419aae4a121d47c3.bindPopup(popup_b7749e2f8e9bba47076b544403bcf936)
+        ;
+
+        
+    
+    
+            marker_7d399b993e32d850419aae4a121d47c3.bindTooltip(
+                `<div>
+                     Lati Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ec723e7a03c3973c9bd43623251b662 = L.marker(
+                [36.8765, 54.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_d0d365016355375c8702812047ce6b90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7ec723e7a03c3973c9bd43623251b662.setIcon(icon_d0d365016355375c8702812047ce6b90);
+        
+    
+        var popup_1add2a159c46d21f46432997133eaf56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15dee4d078932d335a64449ab60beb7b = $(`<div id="html_15dee4d078932d335a64449ab60beb7b" style="width: 100.0%; height: 100.0%;">Shirbad Waterfall<br>Height: 50 meters<br>Sate: Golestan</div>`)[0];
+                popup_1add2a159c46d21f46432997133eaf56.setContent(html_15dee4d078932d335a64449ab60beb7b);
+            
+        
+
+        marker_7ec723e7a03c3973c9bd43623251b662.bindPopup(popup_1add2a159c46d21f46432997133eaf56)
+        ;
+
+        
+    
+    
+            marker_7ec723e7a03c3973c9bd43623251b662.bindTooltip(
+                `<div>
+                     Shirbad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b2aae9591ee39177ece9586148bfd55 = L.marker(
+                [30.1234, 51.9876],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_6ba2590d37c831dfa7c3339e3b09e810 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b2aae9591ee39177ece9586148bfd55.setIcon(icon_6ba2590d37c831dfa7c3339e3b09e810);
+        
+    
+        var popup_3c3f43aef872e65a504476dc3ecb0c8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02c598a3432a10f97382f16c271d2bc1 = $(`<div id="html_02c598a3432a10f97382f16c271d2bc1" style="width: 100.0%; height: 100.0%;">Margoon Waterfall<br>Height: 70 meters<br>Sate: Fars</div>`)[0];
+                popup_3c3f43aef872e65a504476dc3ecb0c8a.setContent(html_02c598a3432a10f97382f16c271d2bc1);
+            
+        
+
+        marker_2b2aae9591ee39177ece9586148bfd55.bindPopup(popup_3c3f43aef872e65a504476dc3ecb0c8a)
+        ;
+
+        
+    
+    
+            marker_2b2aae9591ee39177ece9586148bfd55.bindTooltip(
+                `<div>
+                     Margoon Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5155d0186edb90b206f9b7a7dacfdb2 = L.marker(
+                [33.3456, 48.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_d1d15c886726e68308a7bd70a533e260 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5155d0186edb90b206f9b7a7dacfdb2.setIcon(icon_d1d15c886726e68308a7bd70a533e260);
+        
+    
+        var popup_8392ab1c5dab4316705fcd0fa7b398a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efcb4906375e16b9328e6584adc41177 = $(`<div id="html_efcb4906375e16b9328e6584adc41177" style="width: 100.0%; height: 100.0%;">Bisheh Waterfall<br>Height: 48 meters<br>Sate: Lorestan</div>`)[0];
+                popup_8392ab1c5dab4316705fcd0fa7b398a7.setContent(html_efcb4906375e16b9328e6584adc41177);
+            
+        
+
+        marker_d5155d0186edb90b206f9b7a7dacfdb2.bindPopup(popup_8392ab1c5dab4316705fcd0fa7b398a7)
+        ;
+
+        
+    
+    
+            marker_d5155d0186edb90b206f9b7a7dacfdb2.bindTooltip(
+                `<div>
+                     Bisheh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fe3abb5e54c981528d7335503c98370c = L.marker(
+                [35.6789, 46.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_9d5e9641b201bca8129282ffbf4e9c97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fe3abb5e54c981528d7335503c98370c.setIcon(icon_9d5e9641b201bca8129282ffbf4e9c97);
+        
+    
+        var popup_4531b5d77855f402017f13e3e710b1ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0a2281beee94288e9d22d9625c1d1a = $(`<div id="html_1c0a2281beee94288e9d22d9625c1d1a" style="width: 100.0%; height: 100.0%;">Shalmash Waterfall<br>Height: 30 meters<br>Sate: Kurdistan</div>`)[0];
+                popup_4531b5d77855f402017f13e3e710b1ba.setContent(html_1c0a2281beee94288e9d22d9625c1d1a);
+            
+        
+
+        marker_fe3abb5e54c981528d7335503c98370c.bindPopup(popup_4531b5d77855f402017f13e3e710b1ba)
+        ;
+
+        
+    
+    
+            marker_fe3abb5e54c981528d7335503c98370c.bindTooltip(
+                `<div>
+                     Shalmash Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a056663f52972608a22a0b5656206783 = L.marker(
+                [36.4567, 59.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_ae8d9d3584beca4e1b73423cc899d15a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a056663f52972608a22a0b5656206783.setIcon(icon_ae8d9d3584beca4e1b73423cc899d15a);
+        
+    
+        var popup_760519be22fda1a6f849c836e959bde1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d26b875db61ecda4c150044c807a2cdc = $(`<div id="html_d26b875db61ecda4c150044c807a2cdc" style="width: 100.0%; height: 100.0%;">Reyneh Waterfall<br>Height: 20 meters<br>Sate: Razavi Khorasan</div>`)[0];
+                popup_760519be22fda1a6f849c836e959bde1.setContent(html_d26b875db61ecda4c150044c807a2cdc);
+            
+        
+
+        marker_a056663f52972608a22a0b5656206783.bindPopup(popup_760519be22fda1a6f849c836e959bde1)
+        ;
+
+        
+    
+    
+            marker_a056663f52972608a22a0b5656206783.bindTooltip(
+                `<div>
+                     Reyneh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc4d13e85254a7ed3354f8dfd0bb1eff = L.marker(
+                [35.789, 51.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_75b746d1191df624ba0ac13a7fc8ad0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dc4d13e85254a7ed3354f8dfd0bb1eff.setIcon(icon_75b746d1191df624ba0ac13a7fc8ad0d);
+        
+    
+        var popup_7ee55d56a210c2202a206f3585d2c8ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b4d6445efc94ce0e1aca60f3212a484 = $(`<div id="html_5b4d6445efc94ce0e1aca60f3212a484" style="width: 100.0%; height: 100.0%;">Tangeh Savashi Waterfall<br>Height: 15 meters<br>Sate: Tehran</div>`)[0];
+                popup_7ee55d56a210c2202a206f3585d2c8ee.setContent(html_5b4d6445efc94ce0e1aca60f3212a484);
+            
+        
+
+        marker_dc4d13e85254a7ed3354f8dfd0bb1eff.bindPopup(popup_7ee55d56a210c2202a206f3585d2c8ee)
+        ;
+
+        
+    
+    
+            marker_dc4d13e85254a7ed3354f8dfd0bb1eff.bindTooltip(
+                `<div>
+                     Tangeh Savashi Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cfec68eb6f090e29f6317cdd1935ab00 = L.marker(
+                [32.1234, 50.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_59b4877d40b53e7e7b1dc28f49c8ada2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfec68eb6f090e29f6317cdd1935ab00.setIcon(icon_59b4877d40b53e7e7b1dc28f49c8ada2);
+        
+    
+        var popup_be5bdc397c74af1dd9da47f1ac978000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea864d47cd83194bce6a4ec75023ab0e = $(`<div id="html_ea864d47cd83194bce6a4ec75023ab0e" style="width: 100.0%; height: 100.0%;">Aabsefid Waterfall<br>Height: 60 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_be5bdc397c74af1dd9da47f1ac978000.setContent(html_ea864d47cd83194bce6a4ec75023ab0e);
+            
+        
+
+        marker_cfec68eb6f090e29f6317cdd1935ab00.bindPopup(popup_be5bdc397c74af1dd9da47f1ac978000)
+        ;
+
+        
+    
+    
+            marker_cfec68eb6f090e29f6317cdd1935ab00.bindTooltip(
+                `<div>
+                     Aabsefid Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5edf51c8d1637e88929519d11b38ca57 = L.marker(
+                [34.5678, 46.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_46a806800fd1e1f91c0a03c683fcc591 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5edf51c8d1637e88929519d11b38ca57.setIcon(icon_46a806800fd1e1f91c0a03c683fcc591);
+        
+    
+        var popup_d09314c8955ea17699a02dac38563b89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_613dfb46e8050ae4bacca03a9829a90e = $(`<div id="html_613dfb46e8050ae4bacca03a9829a90e" style="width: 100.0%; height: 100.0%;">Khosroabad Waterfall<br>Height: 25 meters<br>Sate: Kermanshah</div>`)[0];
+                popup_d09314c8955ea17699a02dac38563b89.setContent(html_613dfb46e8050ae4bacca03a9829a90e);
+            
+        
+
+        marker_5edf51c8d1637e88929519d11b38ca57.bindPopup(popup_d09314c8955ea17699a02dac38563b89)
+        ;
+
+        
+    
+    
+            marker_5edf51c8d1637e88929519d11b38ca57.bindTooltip(
+                `<div>
+                     Khosroabad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b827b8f6c268db6aa3cfbb9d8df598a = L.marker(
+                [36.0123, 50.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_d92b63798663cb6021db4aef250886d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b827b8f6c268db6aa3cfbb9d8df598a.setIcon(icon_d92b63798663cb6021db4aef250886d8);
+        
+    
+        var popup_24446f88fc3a37c5e377303d021fb125 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31ecdeb4bcf90bb0e56e6d5d84e78b1c = $(`<div id="html_31ecdeb4bcf90bb0e56e6d5d84e78b1c" style="width: 100.0%; height: 100.0%;">Shahandasht Waterfall<br>Height: 40 meters<br>Sate: Alborz</div>`)[0];
+                popup_24446f88fc3a37c5e377303d021fb125.setContent(html_31ecdeb4bcf90bb0e56e6d5d84e78b1c);
+            
+        
+
+        marker_5b827b8f6c268db6aa3cfbb9d8df598a.bindPopup(popup_24446f88fc3a37c5e377303d021fb125)
+        ;
+
+        
+    
+    
+            marker_5b827b8f6c268db6aa3cfbb9d8df598a.bindTooltip(
+                `<div>
+                     Shahandasht Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d52a1bfb58361bddc5650d3de42c2f64 = L.marker(
+                [30.789, 51.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_c0985070f06ec4ae04dee841aeba1179 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d52a1bfb58361bddc5650d3de42c2f64.setIcon(icon_c0985070f06ec4ae04dee841aeba1179);
+        
+    
+        var popup_ac854835ec37d88d5ac573795bbaecbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07ad097128cdcb1b443d1e2e4d359607 = $(`<div id="html_07ad097128cdcb1b443d1e2e4d359607" style="width: 100.0%; height: 100.0%;">Chehel Cheshmeh Waterfall<br>Height: 35 meters<br>Sate: Kohgiluyeh and Boyer-Ahmad</div>`)[0];
+                popup_ac854835ec37d88d5ac573795bbaecbe.setContent(html_07ad097128cdcb1b443d1e2e4d359607);
+            
+        
+
+        marker_d52a1bfb58361bddc5650d3de42c2f64.bindPopup(popup_ac854835ec37d88d5ac573795bbaecbe)
+        ;
+
+        
+    
+    
+            marker_d52a1bfb58361bddc5650d3de42c2f64.bindTooltip(
+                `<div>
+                     Chehel Cheshmeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_00bf54129972402d3a11f5e16b67d336 = L.marker(
+                [37.2345, 49.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_b92ddf4409a2e8257398140301cbd747 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00bf54129972402d3a11f5e16b67d336.setIcon(icon_b92ddf4409a2e8257398140301cbd747);
+        
+    
+        var popup_1b52594085c05cdd791ba52191dfe63d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09239c842cc335336ab2e6e034b1029a = $(`<div id="html_09239c842cc335336ab2e6e034b1029a" style="width: 100.0%; height: 100.0%;">Rudkhan Waterfall<br>Height: 20 meters<br>Sate: Gilan</div>`)[0];
+                popup_1b52594085c05cdd791ba52191dfe63d.setContent(html_09239c842cc335336ab2e6e034b1029a);
+            
+        
+
+        marker_00bf54129972402d3a11f5e16b67d336.bindPopup(popup_1b52594085c05cdd791ba52191dfe63d)
+        ;
+
+        
+    
+    
+            marker_00bf54129972402d3a11f5e16b67d336.bindTooltip(
+                `<div>
+                     Rudkhan Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7508b339f476f757d49686dfda54d497 = L.marker(
+                [32.4567, 50.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_8f0a3c094bf9063da7112b4b138c8a80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7508b339f476f757d49686dfda54d497.setIcon(icon_8f0a3c094bf9063da7112b4b138c8a80);
+        
+    
+        var popup_aeb53c10caad98a8ec8d8461bba3d8b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99f3e573a38d128ae54cc215142203d0 = $(`<div id="html_99f3e573a38d128ae54cc215142203d0" style="width: 100.0%; height: 100.0%;">Sarab-e Bahram Waterfall<br>Height: 10 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_aeb53c10caad98a8ec8d8461bba3d8b8.setContent(html_99f3e573a38d128ae54cc215142203d0);
+            
+        
+
+        marker_7508b339f476f757d49686dfda54d497.bindPopup(popup_aeb53c10caad98a8ec8d8461bba3d8b8)
+        ;
+
+        
+    
+    
+            marker_7508b339f476f757d49686dfda54d497.bindTooltip(
+                `<div>
+                     Sarab-e Bahram Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eefc8f35cdb2be42e8209ab97158323d = L.marker(
+                [34.789, 48.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_f5d436072d4d2a009cd025bf2bdc4340 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eefc8f35cdb2be42e8209ab97158323d.setIcon(icon_f5d436072d4d2a009cd025bf2bdc4340);
+        
+    
+        var popup_7cb43bcf7e703383fc9a6a5c1a9e67ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7aef2fb02c7dd63477b1efb0a4f503f = $(`<div id="html_a7aef2fb02c7dd63477b1efb0a4f503f" style="width: 100.0%; height: 100.0%;">Ganjnameh Waterfall<br>Height: 12 meters<br>Sate: Hamadan</div>`)[0];
+                popup_7cb43bcf7e703383fc9a6a5c1a9e67ee.setContent(html_a7aef2fb02c7dd63477b1efb0a4f503f);
+            
+        
+
+        marker_eefc8f35cdb2be42e8209ab97158323d.bindPopup(popup_7cb43bcf7e703383fc9a6a5c1a9e67ee)
+        ;
+
+        
+    
+    
+            marker_eefc8f35cdb2be42e8209ab97158323d.bindTooltip(
+                `<div>
+                     Ganjnameh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_81c07985191796e08e83ec432e46e35f = L.marker(
+                [33.0123, 51.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_521edae514df09519b61e9841668081a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_81c07985191796e08e83ec432e46e35f.setIcon(icon_521edae514df09519b61e9841668081a);
+        
+    
+        var popup_55122a6dfd8d4a41bd552ff9301f5692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_399119808765efb6240197f6dd9b9cfe = $(`<div id="html_399119808765efb6240197f6dd9b9cfe" style="width: 100.0%; height: 100.0%;">Kuhpayeh Waterfall<br>Height: 18 meters<br>Sate: Isfahan</div>`)[0];
+                popup_55122a6dfd8d4a41bd552ff9301f5692.setContent(html_399119808765efb6240197f6dd9b9cfe);
+            
+        
+
+        marker_81c07985191796e08e83ec432e46e35f.bindPopup(popup_55122a6dfd8d4a41bd552ff9301f5692)
+        ;
+
+        
+    
+    
+            marker_81c07985191796e08e83ec432e46e35f.bindTooltip(
+                `<div>
+                     Kuhpayeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e790d0f14d613c8c26aa543ee6c61e1b = L.marker(
+                [36.5678, 47.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_7f70fd4af4883ebdc07857d9d11668b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e790d0f14d613c8c26aa543ee6c61e1b.setIcon(icon_7f70fd4af4883ebdc07857d9d11668b2);
+        
+    
+        var popup_5cd861fa56280fa2a1ae75e16830b035 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fde3bda2acc6f6102e012f90f38973eb = $(`<div id="html_fde3bda2acc6f6102e012f90f38973eb" style="width: 100.0%; height: 100.0%;">Takht-e Soleyman Waterfall<br>Height: 22 meters<br>Sate: West Azerbaijan</div>`)[0];
+                popup_5cd861fa56280fa2a1ae75e16830b035.setContent(html_fde3bda2acc6f6102e012f90f38973eb);
+            
+        
+
+        marker_e790d0f14d613c8c26aa543ee6c61e1b.bindPopup(popup_5cd861fa56280fa2a1ae75e16830b035)
+        ;
+
+        
+    
+    
+            marker_e790d0f14d613c8c26aa543ee6c61e1b.bindTooltip(
+                `<div>
+                     Takht-e Soleyman Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0577ccf53aa6c9dacdec1b6584b10591 = L.marker(
+                [36.789, 51.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_7949f0a0f044f6a0d1211ab85f58f0de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0577ccf53aa6c9dacdec1b6584b10591.setIcon(icon_7949f0a0f044f6a0d1211ab85f58f0de);
+        
+    
+        var popup_0cc9149e8ebd4aaedc8bf1613830a8d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4892ed2c5e224f7a06b47defc4b4ba9 = $(`<div id="html_e4892ed2c5e224f7a06b47defc4b4ba9" style="width: 100.0%; height: 100.0%;">Daland Waterfall<br>Height: 30 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_0cc9149e8ebd4aaedc8bf1613830a8d9.setContent(html_e4892ed2c5e224f7a06b47defc4b4ba9);
+            
+        
+
+        marker_0577ccf53aa6c9dacdec1b6584b10591.bindPopup(popup_0cc9149e8ebd4aaedc8bf1613830a8d9)
+        ;
+
+        
+    
+    
+            marker_0577ccf53aa6c9dacdec1b6584b10591.bindTooltip(
+                `<div>
+                     Daland Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df5925f33c93812f05d031e01d506ad3 = L.marker(
+                [29.1234, 57.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_4480996bb3df7b5e1de61c744e8cfb73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df5925f33c93812f05d031e01d506ad3.setIcon(icon_4480996bb3df7b5e1de61c744e8cfb73);
+        
+    
+        var popup_aee256e22bc7f4a91526f729d98e4699 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56cd3e03ba82a5dfc060780e3fb87e15 = $(`<div id="html_56cd3e03ba82a5dfc060780e3fb87e15" style="width: 100.0%; height: 100.0%;">Sefidab Waterfall<br>Height: 15 meters<br>Sate: Kerman</div>`)[0];
+                popup_aee256e22bc7f4a91526f729d98e4699.setContent(html_56cd3e03ba82a5dfc060780e3fb87e15);
+            
+        
+
+        marker_df5925f33c93812f05d031e01d506ad3.bindPopup(popup_aee256e22bc7f4a91526f729d98e4699)
+        ;
+
+        
+    
+    
+            marker_df5925f33c93812f05d031e01d506ad3.bindTooltip(
+                `<div>
+                     Sefidab Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9da7e09f582601b12d019f7785b69d02 = L.marker(
+                [35.4567, 52.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_e631d1b27d70303b3c0d152ae30d6720 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9da7e09f582601b12d019f7785b69d02.setIcon(icon_e631d1b27d70303b3c0d152ae30d6720);
+        
+    
+        var popup_e792941ec9e5d30092cd479fec1bffae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97295d28edc8022242155cc88ea2a733 = $(`<div id="html_97295d28edc8022242155cc88ea2a733" style="width: 100.0%; height: 100.0%;">Niyarak Waterfall<br>Height: 10 meters<br>Sate: Tehran</div>`)[0];
+                popup_e792941ec9e5d30092cd479fec1bffae.setContent(html_97295d28edc8022242155cc88ea2a733);
+            
+        
+
+        marker_9da7e09f582601b12d019f7785b69d02.bindPopup(popup_e792941ec9e5d30092cd479fec1bffae)
+        ;
+
+        
+    
+    
+            marker_9da7e09f582601b12d019f7785b69d02.bindTooltip(
+                `<div>
+                     Niyarak Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2d7fe7b96de38ec778841c611f6396fc = L.marker(
+                [37.0123, 49.5678],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_ee59a07a0d14c3b969f2dac4a580572f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2d7fe7b96de38ec778841c611f6396fc.setIcon(icon_ee59a07a0d14c3b969f2dac4a580572f);
+        
+    
+        var popup_a2bcf09b0d1cee11251c66aba747f2f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16a43a4255bd252990fa189c8be3f205 = $(`<div id="html_16a43a4255bd252990fa189c8be3f205" style="width: 100.0%; height: 100.0%;">Vezg Waterfall<br>Height: 25 meters<br>Sate: Gilan</div>`)[0];
+                popup_a2bcf09b0d1cee11251c66aba747f2f1.setContent(html_16a43a4255bd252990fa189c8be3f205);
+            
+        
+
+        marker_2d7fe7b96de38ec778841c611f6396fc.bindPopup(popup_a2bcf09b0d1cee11251c66aba747f2f1)
+        ;
+
+        
+    
+    
+            marker_2d7fe7b96de38ec778841c611f6396fc.bindTooltip(
+                `<div>
+                     Vezg Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_2b41704005ffbf5e2bc2d812f1f88a28.addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var marker_0077a8f24e7751efe2faf5d056a21e03 = L.marker(
+                [36.2345, 51.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_2e5439c09349a65c15bdc47ee180b7da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0077a8f24e7751efe2faf5d056a21e03.setIcon(icon_2e5439c09349a65c15bdc47ee180b7da);
+        
+    
+        var popup_6cc809f7c0130a2cac828918891f8de6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09383699f309cf4a67f16a57602721ca = $(`<div id="html_09383699f309cf4a67f16a57602721ca" style="width: 100.0%; height: 100.0%;">Lati Waterfall<br>Height: 100 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_6cc809f7c0130a2cac828918891f8de6.setContent(html_09383699f309cf4a67f16a57602721ca);
+            
+        
+
+        marker_0077a8f24e7751efe2faf5d056a21e03.bindPopup(popup_6cc809f7c0130a2cac828918891f8de6)
+        ;
+
+        
+    
+    
+            marker_0077a8f24e7751efe2faf5d056a21e03.bindTooltip(
+                `<div>
+                     Lati Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_45c6f66e29bebf3ecbb89cdfa7f16028 = L.marker(
+                [36.8765, 54.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_369036bac4be5a4e759a5c59caea5f09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_45c6f66e29bebf3ecbb89cdfa7f16028.setIcon(icon_369036bac4be5a4e759a5c59caea5f09);
+        
+    
+        var popup_b48bec50c89c642fb25a72591cc37c00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f49ce7edc1691eb11edcaea820ca16 = $(`<div id="html_b9f49ce7edc1691eb11edcaea820ca16" style="width: 100.0%; height: 100.0%;">Shirbad Waterfall<br>Height: 50 meters<br>Sate: Golestan</div>`)[0];
+                popup_b48bec50c89c642fb25a72591cc37c00.setContent(html_b9f49ce7edc1691eb11edcaea820ca16);
+            
+        
+
+        marker_45c6f66e29bebf3ecbb89cdfa7f16028.bindPopup(popup_b48bec50c89c642fb25a72591cc37c00)
+        ;
+
+        
+    
+    
+            marker_45c6f66e29bebf3ecbb89cdfa7f16028.bindTooltip(
+                `<div>
+                     Shirbad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_24f5323974ee5658a28f80d543de7b38 = L.marker(
+                [30.1234, 51.9876],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_c52893864aa6407e97e17ea2f2ffef0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_24f5323974ee5658a28f80d543de7b38.setIcon(icon_c52893864aa6407e97e17ea2f2ffef0e);
+        
+    
+        var popup_5c3d09b1c263e1d43e0c7ae196146c42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d91d1c08db549840a620fbd117b60225 = $(`<div id="html_d91d1c08db549840a620fbd117b60225" style="width: 100.0%; height: 100.0%;">Margoon Waterfall<br>Height: 70 meters<br>Sate: Fars</div>`)[0];
+                popup_5c3d09b1c263e1d43e0c7ae196146c42.setContent(html_d91d1c08db549840a620fbd117b60225);
+            
+        
+
+        marker_24f5323974ee5658a28f80d543de7b38.bindPopup(popup_5c3d09b1c263e1d43e0c7ae196146c42)
+        ;
+
+        
+    
+    
+            marker_24f5323974ee5658a28f80d543de7b38.bindTooltip(
+                `<div>
+                     Margoon Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d272080784aed245ceaedc3a8944f324 = L.marker(
+                [33.3456, 48.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_26bd8ae4fb9ac21b24ab8d18c6532dc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d272080784aed245ceaedc3a8944f324.setIcon(icon_26bd8ae4fb9ac21b24ab8d18c6532dc1);
+        
+    
+        var popup_b31680c615187724feb31a5d44c7c59e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_086ffd1ec010f39e8a91030367205a4c = $(`<div id="html_086ffd1ec010f39e8a91030367205a4c" style="width: 100.0%; height: 100.0%;">Bisheh Waterfall<br>Height: 48 meters<br>Sate: Lorestan</div>`)[0];
+                popup_b31680c615187724feb31a5d44c7c59e.setContent(html_086ffd1ec010f39e8a91030367205a4c);
+            
+        
+
+        marker_d272080784aed245ceaedc3a8944f324.bindPopup(popup_b31680c615187724feb31a5d44c7c59e)
+        ;
+
+        
+    
+    
+            marker_d272080784aed245ceaedc3a8944f324.bindTooltip(
+                `<div>
+                     Bisheh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5f71eaade331c60b13e8c7e4276c9d4b = L.marker(
+                [35.6789, 46.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_e510882d473ade0d0f58456c1fb5e3a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f71eaade331c60b13e8c7e4276c9d4b.setIcon(icon_e510882d473ade0d0f58456c1fb5e3a1);
+        
+    
+        var popup_bf2b83c971cb30fd90aa6e161b2370d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_767b8e04bfcd2353100f75e2fbdfa074 = $(`<div id="html_767b8e04bfcd2353100f75e2fbdfa074" style="width: 100.0%; height: 100.0%;">Shalmash Waterfall<br>Height: 30 meters<br>Sate: Kurdistan</div>`)[0];
+                popup_bf2b83c971cb30fd90aa6e161b2370d8.setContent(html_767b8e04bfcd2353100f75e2fbdfa074);
+            
+        
+
+        marker_5f71eaade331c60b13e8c7e4276c9d4b.bindPopup(popup_bf2b83c971cb30fd90aa6e161b2370d8)
+        ;
+
+        
+    
+    
+            marker_5f71eaade331c60b13e8c7e4276c9d4b.bindTooltip(
+                `<div>
+                     Shalmash Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5681c5c69b37a60814598405c270e3a = L.marker(
+                [36.4567, 59.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_feda4f7f0316ceac95f1e59562e4d593 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b5681c5c69b37a60814598405c270e3a.setIcon(icon_feda4f7f0316ceac95f1e59562e4d593);
+        
+    
+        var popup_7d1e6ea2ad3cdb3c2aa6e211f74f3524 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee72859abd1b8e8310ec5ccc59a5ef31 = $(`<div id="html_ee72859abd1b8e8310ec5ccc59a5ef31" style="width: 100.0%; height: 100.0%;">Reyneh Waterfall<br>Height: 20 meters<br>Sate: Razavi Khorasan</div>`)[0];
+                popup_7d1e6ea2ad3cdb3c2aa6e211f74f3524.setContent(html_ee72859abd1b8e8310ec5ccc59a5ef31);
+            
+        
+
+        marker_b5681c5c69b37a60814598405c270e3a.bindPopup(popup_7d1e6ea2ad3cdb3c2aa6e211f74f3524)
+        ;
+
+        
+    
+    
+            marker_b5681c5c69b37a60814598405c270e3a.bindTooltip(
+                `<div>
+                     Reyneh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96286dd4916fb6b4c4242c80327bb344 = L.marker(
+                [35.789, 51.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_8071e306635919f93f0e62de9320db16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96286dd4916fb6b4c4242c80327bb344.setIcon(icon_8071e306635919f93f0e62de9320db16);
+        
+    
+        var popup_daccfd43949cfda62eccab85db189734 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e774eaf75eea24a44c704450260faad = $(`<div id="html_4e774eaf75eea24a44c704450260faad" style="width: 100.0%; height: 100.0%;">Tangeh Savashi Waterfall<br>Height: 15 meters<br>Sate: Tehran</div>`)[0];
+                popup_daccfd43949cfda62eccab85db189734.setContent(html_4e774eaf75eea24a44c704450260faad);
+            
+        
+
+        marker_96286dd4916fb6b4c4242c80327bb344.bindPopup(popup_daccfd43949cfda62eccab85db189734)
+        ;
+
+        
+    
+    
+            marker_96286dd4916fb6b4c4242c80327bb344.bindTooltip(
+                `<div>
+                     Tangeh Savashi Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_af24b26250f8992c25fb4a8582905866 = L.marker(
+                [32.1234, 50.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_3f3c72076eb1236321777aeca07dd6b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_af24b26250f8992c25fb4a8582905866.setIcon(icon_3f3c72076eb1236321777aeca07dd6b8);
+        
+    
+        var popup_09b2f808a563c831c58197e91b74978f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1985377f514b603533d23b00c32d6eb = $(`<div id="html_c1985377f514b603533d23b00c32d6eb" style="width: 100.0%; height: 100.0%;">Aabsefid Waterfall<br>Height: 60 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_09b2f808a563c831c58197e91b74978f.setContent(html_c1985377f514b603533d23b00c32d6eb);
+            
+        
+
+        marker_af24b26250f8992c25fb4a8582905866.bindPopup(popup_09b2f808a563c831c58197e91b74978f)
+        ;
+
+        
+    
+    
+            marker_af24b26250f8992c25fb4a8582905866.bindTooltip(
+                `<div>
+                     Aabsefid Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aee7d52003b7942207f9ee3903dbac67 = L.marker(
+                [34.5678, 46.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_beae99e2f55b65ddd11834d6b8c83a34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aee7d52003b7942207f9ee3903dbac67.setIcon(icon_beae99e2f55b65ddd11834d6b8c83a34);
+        
+    
+        var popup_bff386360826523f644445347008d929 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02f6b51737fa4a6a6b544548b90e44dc = $(`<div id="html_02f6b51737fa4a6a6b544548b90e44dc" style="width: 100.0%; height: 100.0%;">Khosroabad Waterfall<br>Height: 25 meters<br>Sate: Kermanshah</div>`)[0];
+                popup_bff386360826523f644445347008d929.setContent(html_02f6b51737fa4a6a6b544548b90e44dc);
+            
+        
+
+        marker_aee7d52003b7942207f9ee3903dbac67.bindPopup(popup_bff386360826523f644445347008d929)
+        ;
+
+        
+    
+    
+            marker_aee7d52003b7942207f9ee3903dbac67.bindTooltip(
+                `<div>
+                     Khosroabad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae43eb9f56b63d6485f6178ed98dd3a4 = L.marker(
+                [36.0123, 50.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_269b43ba41921aa2b97d1f6b1452555b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ae43eb9f56b63d6485f6178ed98dd3a4.setIcon(icon_269b43ba41921aa2b97d1f6b1452555b);
+        
+    
+        var popup_1750521dae426ea4bd1fc0c6b79a8b2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b233b4fa3951c8992d096972adee91e = $(`<div id="html_7b233b4fa3951c8992d096972adee91e" style="width: 100.0%; height: 100.0%;">Shahandasht Waterfall<br>Height: 40 meters<br>Sate: Alborz</div>`)[0];
+                popup_1750521dae426ea4bd1fc0c6b79a8b2c.setContent(html_7b233b4fa3951c8992d096972adee91e);
+            
+        
+
+        marker_ae43eb9f56b63d6485f6178ed98dd3a4.bindPopup(popup_1750521dae426ea4bd1fc0c6b79a8b2c)
+        ;
+
+        
+    
+    
+            marker_ae43eb9f56b63d6485f6178ed98dd3a4.bindTooltip(
+                `<div>
+                     Shahandasht Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de05b66c50ce1fa0bcb5291823c2016e = L.marker(
+                [30.789, 51.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_e46c043957b854639469d381a30b8463 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de05b66c50ce1fa0bcb5291823c2016e.setIcon(icon_e46c043957b854639469d381a30b8463);
+        
+    
+        var popup_d0a166ff970d52f57e880697e53362c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b28fee537c0fdeaf75bd1654e6166ebc = $(`<div id="html_b28fee537c0fdeaf75bd1654e6166ebc" style="width: 100.0%; height: 100.0%;">Chehel Cheshmeh Waterfall<br>Height: 35 meters<br>Sate: Kohgiluyeh and Boyer-Ahmad</div>`)[0];
+                popup_d0a166ff970d52f57e880697e53362c9.setContent(html_b28fee537c0fdeaf75bd1654e6166ebc);
+            
+        
+
+        marker_de05b66c50ce1fa0bcb5291823c2016e.bindPopup(popup_d0a166ff970d52f57e880697e53362c9)
+        ;
+
+        
+    
+    
+            marker_de05b66c50ce1fa0bcb5291823c2016e.bindTooltip(
+                `<div>
+                     Chehel Cheshmeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c858a7a46ccb2480d98c4705d1b0d548 = L.marker(
+                [37.2345, 49.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_0a9c2cbbb58e96378e55bf9c3c04ad18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c858a7a46ccb2480d98c4705d1b0d548.setIcon(icon_0a9c2cbbb58e96378e55bf9c3c04ad18);
+        
+    
+        var popup_09ba29a583371b67e570eac508e16977 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78533224cee16d34c699758b438d8f72 = $(`<div id="html_78533224cee16d34c699758b438d8f72" style="width: 100.0%; height: 100.0%;">Rudkhan Waterfall<br>Height: 20 meters<br>Sate: Gilan</div>`)[0];
+                popup_09ba29a583371b67e570eac508e16977.setContent(html_78533224cee16d34c699758b438d8f72);
+            
+        
+
+        marker_c858a7a46ccb2480d98c4705d1b0d548.bindPopup(popup_09ba29a583371b67e570eac508e16977)
+        ;
+
+        
+    
+    
+            marker_c858a7a46ccb2480d98c4705d1b0d548.bindTooltip(
+                `<div>
+                     Rudkhan Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f92492cb658762c74af438d72c01c07 = L.marker(
+                [32.4567, 50.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_30dd555097c4b674d33563eb6bcacf91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f92492cb658762c74af438d72c01c07.setIcon(icon_30dd555097c4b674d33563eb6bcacf91);
+        
+    
+        var popup_8284f8c3f5deb395b56256427e6b4550 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2b843d1973a4ba937ba0e91ea90db63 = $(`<div id="html_b2b843d1973a4ba937ba0e91ea90db63" style="width: 100.0%; height: 100.0%;">Sarab-e Bahram Waterfall<br>Height: 10 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_8284f8c3f5deb395b56256427e6b4550.setContent(html_b2b843d1973a4ba937ba0e91ea90db63);
+            
+        
+
+        marker_1f92492cb658762c74af438d72c01c07.bindPopup(popup_8284f8c3f5deb395b56256427e6b4550)
+        ;
+
+        
+    
+    
+            marker_1f92492cb658762c74af438d72c01c07.bindTooltip(
+                `<div>
+                     Sarab-e Bahram Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fec62cd6226b94534978b6ecd99ef43e = L.marker(
+                [34.789, 48.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_f245e5d167e71e2be661ebd26cdc8406 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fec62cd6226b94534978b6ecd99ef43e.setIcon(icon_f245e5d167e71e2be661ebd26cdc8406);
+        
+    
+        var popup_0e614fc1f1340491d3ac10f0eb767843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_807826e6b8051071882b124804b4c446 = $(`<div id="html_807826e6b8051071882b124804b4c446" style="width: 100.0%; height: 100.0%;">Ganjnameh Waterfall<br>Height: 12 meters<br>Sate: Hamadan</div>`)[0];
+                popup_0e614fc1f1340491d3ac10f0eb767843.setContent(html_807826e6b8051071882b124804b4c446);
+            
+        
+
+        marker_fec62cd6226b94534978b6ecd99ef43e.bindPopup(popup_0e614fc1f1340491d3ac10f0eb767843)
+        ;
+
+        
+    
+    
+            marker_fec62cd6226b94534978b6ecd99ef43e.bindTooltip(
+                `<div>
+                     Ganjnameh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4b381df691599404317f10d111cda46 = L.marker(
+                [33.0123, 51.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_635d967c25ce7f694c5c6a91b6556168 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f4b381df691599404317f10d111cda46.setIcon(icon_635d967c25ce7f694c5c6a91b6556168);
+        
+    
+        var popup_b0b45cb1a977c837228a83f5ccca8c5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3c66e2dacf922380fa0d8d4bca94d88 = $(`<div id="html_e3c66e2dacf922380fa0d8d4bca94d88" style="width: 100.0%; height: 100.0%;">Kuhpayeh Waterfall<br>Height: 18 meters<br>Sate: Isfahan</div>`)[0];
+                popup_b0b45cb1a977c837228a83f5ccca8c5d.setContent(html_e3c66e2dacf922380fa0d8d4bca94d88);
+            
+        
+
+        marker_f4b381df691599404317f10d111cda46.bindPopup(popup_b0b45cb1a977c837228a83f5ccca8c5d)
+        ;
+
+        
+    
+    
+            marker_f4b381df691599404317f10d111cda46.bindTooltip(
+                `<div>
+                     Kuhpayeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2f711ae060c80f803448ab927db485f = L.marker(
+                [36.5678, 47.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_096a7ab64cab807ecbae65f0fa134de6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2f711ae060c80f803448ab927db485f.setIcon(icon_096a7ab64cab807ecbae65f0fa134de6);
+        
+    
+        var popup_d7d1e07df483777437834953dc9d7de5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a0fbb4a6673f7a6f1ebf1d53ab5e046 = $(`<div id="html_3a0fbb4a6673f7a6f1ebf1d53ab5e046" style="width: 100.0%; height: 100.0%;">Takht-e Soleyman Waterfall<br>Height: 22 meters<br>Sate: West Azerbaijan</div>`)[0];
+                popup_d7d1e07df483777437834953dc9d7de5.setContent(html_3a0fbb4a6673f7a6f1ebf1d53ab5e046);
+            
+        
+
+        marker_c2f711ae060c80f803448ab927db485f.bindPopup(popup_d7d1e07df483777437834953dc9d7de5)
+        ;
+
+        
+    
+    
+            marker_c2f711ae060c80f803448ab927db485f.bindTooltip(
+                `<div>
+                     Takht-e Soleyman Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_18da074c69f4d1b88334e39532490f04 = L.marker(
+                [36.789, 51.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_86efbc0b03bede440acfcec6f1242525 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18da074c69f4d1b88334e39532490f04.setIcon(icon_86efbc0b03bede440acfcec6f1242525);
+        
+    
+        var popup_8ef211a29810087d3ba25b134098323d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68127a49dedf5c82be49163f85ce6282 = $(`<div id="html_68127a49dedf5c82be49163f85ce6282" style="width: 100.0%; height: 100.0%;">Daland Waterfall<br>Height: 30 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_8ef211a29810087d3ba25b134098323d.setContent(html_68127a49dedf5c82be49163f85ce6282);
+            
+        
+
+        marker_18da074c69f4d1b88334e39532490f04.bindPopup(popup_8ef211a29810087d3ba25b134098323d)
+        ;
+
+        
+    
+    
+            marker_18da074c69f4d1b88334e39532490f04.bindTooltip(
+                `<div>
+                     Daland Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fff052fb8aed62719f802994f009efe5 = L.marker(
+                [29.1234, 57.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_4b3806133e0add3984c64ae03ca889e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fff052fb8aed62719f802994f009efe5.setIcon(icon_4b3806133e0add3984c64ae03ca889e2);
+        
+    
+        var popup_ad65164ce3c110352e17fbce2763e623 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c1c07768c38c584dd62ed1e98d925b9 = $(`<div id="html_3c1c07768c38c584dd62ed1e98d925b9" style="width: 100.0%; height: 100.0%;">Sefidab Waterfall<br>Height: 15 meters<br>Sate: Kerman</div>`)[0];
+                popup_ad65164ce3c110352e17fbce2763e623.setContent(html_3c1c07768c38c584dd62ed1e98d925b9);
+            
+        
+
+        marker_fff052fb8aed62719f802994f009efe5.bindPopup(popup_ad65164ce3c110352e17fbce2763e623)
+        ;
+
+        
+    
+    
+            marker_fff052fb8aed62719f802994f009efe5.bindTooltip(
+                `<div>
+                     Sefidab Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e072c67cd8498ee8d9360205df3b799 = L.marker(
+                [35.4567, 52.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_9eeef34f5e5370dfa53a363ecba5d6bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e072c67cd8498ee8d9360205df3b799.setIcon(icon_9eeef34f5e5370dfa53a363ecba5d6bd);
+        
+    
+        var popup_8bee833d7a69c37da7012a72943b7a98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f87dcd71c60cc7088c80f303e5b811a0 = $(`<div id="html_f87dcd71c60cc7088c80f303e5b811a0" style="width: 100.0%; height: 100.0%;">Niyarak Waterfall<br>Height: 10 meters<br>Sate: Tehran</div>`)[0];
+                popup_8bee833d7a69c37da7012a72943b7a98.setContent(html_f87dcd71c60cc7088c80f303e5b811a0);
+            
+        
+
+        marker_5e072c67cd8498ee8d9360205df3b799.bindPopup(popup_8bee833d7a69c37da7012a72943b7a98)
+        ;
+
+        
+    
+    
+            marker_5e072c67cd8498ee8d9360205df3b799.bindTooltip(
+                `<div>
+                     Niyarak Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b91ad7cf1d454693d84b92e8a105d5e = L.marker(
+                [37.0123, 49.5678],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_1d453b7a302679b46d1a23127c6d8c0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b91ad7cf1d454693d84b92e8a105d5e.setIcon(icon_1d453b7a302679b46d1a23127c6d8c0b);
+        
+    
+        var popup_027678eda833332d9052b453c5a82e51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aba7197cf20a088601e93b2492d0654 = $(`<div id="html_9aba7197cf20a088601e93b2492d0654" style="width: 100.0%; height: 100.0%;">Vezg Waterfall<br>Height: 25 meters<br>Sate: Gilan</div>`)[0];
+                popup_027678eda833332d9052b453c5a82e51.setContent(html_9aba7197cf20a088601e93b2492d0654);
+            
+        
+
+        marker_5b91ad7cf1d454693d84b92e8a105d5e.bindPopup(popup_027678eda833332d9052b453c5a82e51)
+        ;
+
+        
+    
+    
+            marker_5b91ad7cf1d454693d84b92e8a105d5e.bindTooltip(
+                `<div>
+                     Vezg Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_2b41704005ffbf5e2bc2d812f1f88a28.addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var marker_8822998619e9c7b6f46251090858be0e = L.marker(
+                [36.2345, 51.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_d13429b6467406ee77368efbf58c3b6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8822998619e9c7b6f46251090858be0e.setIcon(icon_d13429b6467406ee77368efbf58c3b6e);
+        
+    
+        var popup_2e82706aea3ea65058b97668777e6b87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2efc2fd0d356af9610797d3ccbc755a = $(`<div id="html_b2efc2fd0d356af9610797d3ccbc755a" style="width: 100.0%; height: 100.0%;">Lati Waterfall<br>Height: 100 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_2e82706aea3ea65058b97668777e6b87.setContent(html_b2efc2fd0d356af9610797d3ccbc755a);
+            
+        
+
+        marker_8822998619e9c7b6f46251090858be0e.bindPopup(popup_2e82706aea3ea65058b97668777e6b87)
+        ;
+
+        
+    
+    
+            marker_8822998619e9c7b6f46251090858be0e.bindTooltip(
+                `<div>
+                     Lati Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2aaede769863bb7daae9519598a963e = L.marker(
+                [36.8765, 54.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_4c549a86d509aa776ac9dd3f338a846e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2aaede769863bb7daae9519598a963e.setIcon(icon_4c549a86d509aa776ac9dd3f338a846e);
+        
+    
+        var popup_59f329a0cc8c46b12d71ec078cad85cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed4a022d4e0f36af7522ab8f2a0e2872 = $(`<div id="html_ed4a022d4e0f36af7522ab8f2a0e2872" style="width: 100.0%; height: 100.0%;">Shirbad Waterfall<br>Height: 50 meters<br>Sate: Golestan</div>`)[0];
+                popup_59f329a0cc8c46b12d71ec078cad85cb.setContent(html_ed4a022d4e0f36af7522ab8f2a0e2872);
+            
+        
+
+        marker_c2aaede769863bb7daae9519598a963e.bindPopup(popup_59f329a0cc8c46b12d71ec078cad85cb)
+        ;
+
+        
+    
+    
+            marker_c2aaede769863bb7daae9519598a963e.bindTooltip(
+                `<div>
+                     Shirbad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0031d383c10e4ae975276e4aed5a0171 = L.marker(
+                [30.1234, 51.9876],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_458e9f0b25e5661801ad02115c111de4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0031d383c10e4ae975276e4aed5a0171.setIcon(icon_458e9f0b25e5661801ad02115c111de4);
+        
+    
+        var popup_4df14e2ee0fb473faf9b41b04184c28e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9630a7e4ce99d5c0796573b53fbc26b = $(`<div id="html_f9630a7e4ce99d5c0796573b53fbc26b" style="width: 100.0%; height: 100.0%;">Margoon Waterfall<br>Height: 70 meters<br>Sate: Fars</div>`)[0];
+                popup_4df14e2ee0fb473faf9b41b04184c28e.setContent(html_f9630a7e4ce99d5c0796573b53fbc26b);
+            
+        
+
+        marker_0031d383c10e4ae975276e4aed5a0171.bindPopup(popup_4df14e2ee0fb473faf9b41b04184c28e)
+        ;
+
+        
+    
+    
+            marker_0031d383c10e4ae975276e4aed5a0171.bindTooltip(
+                `<div>
+                     Margoon Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b6c2f33b8f8976078e5030b1e32a4fc0 = L.marker(
+                [33.3456, 48.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_88d7b3b81b8106de6378256a69750593 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6c2f33b8f8976078e5030b1e32a4fc0.setIcon(icon_88d7b3b81b8106de6378256a69750593);
+        
+    
+        var popup_495f2928d05a0446f4abf28b35aaaaa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42396810d5762c3eaec5e2cc1286a957 = $(`<div id="html_42396810d5762c3eaec5e2cc1286a957" style="width: 100.0%; height: 100.0%;">Bisheh Waterfall<br>Height: 48 meters<br>Sate: Lorestan</div>`)[0];
+                popup_495f2928d05a0446f4abf28b35aaaaa1.setContent(html_42396810d5762c3eaec5e2cc1286a957);
+            
+        
+
+        marker_b6c2f33b8f8976078e5030b1e32a4fc0.bindPopup(popup_495f2928d05a0446f4abf28b35aaaaa1)
+        ;
+
+        
+    
+    
+            marker_b6c2f33b8f8976078e5030b1e32a4fc0.bindTooltip(
+                `<div>
+                     Bisheh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44ca80a0dfedefb0a84b5347081d75bb = L.marker(
+                [35.6789, 46.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_0bb0551466e03839b9429f8e932ce622 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_44ca80a0dfedefb0a84b5347081d75bb.setIcon(icon_0bb0551466e03839b9429f8e932ce622);
+        
+    
+        var popup_c013e4f80d10611759b90c7e3dc4b7ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b8449ceed19e10f6bf1fead51854a23 = $(`<div id="html_3b8449ceed19e10f6bf1fead51854a23" style="width: 100.0%; height: 100.0%;">Shalmash Waterfall<br>Height: 30 meters<br>Sate: Kurdistan</div>`)[0];
+                popup_c013e4f80d10611759b90c7e3dc4b7ed.setContent(html_3b8449ceed19e10f6bf1fead51854a23);
+            
+        
+
+        marker_44ca80a0dfedefb0a84b5347081d75bb.bindPopup(popup_c013e4f80d10611759b90c7e3dc4b7ed)
+        ;
+
+        
+    
+    
+            marker_44ca80a0dfedefb0a84b5347081d75bb.bindTooltip(
+                `<div>
+                     Shalmash Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a4559efd3efc5f4104f582cac48d0471 = L.marker(
+                [36.4567, 59.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_9a8912d43f631dfa322a734730a9d63c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4559efd3efc5f4104f582cac48d0471.setIcon(icon_9a8912d43f631dfa322a734730a9d63c);
+        
+    
+        var popup_7eb4e4cf3a3868dc16498a773b35b9f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31dfb0f376562657928ee5810cb6994a = $(`<div id="html_31dfb0f376562657928ee5810cb6994a" style="width: 100.0%; height: 100.0%;">Reyneh Waterfall<br>Height: 20 meters<br>Sate: Razavi Khorasan</div>`)[0];
+                popup_7eb4e4cf3a3868dc16498a773b35b9f4.setContent(html_31dfb0f376562657928ee5810cb6994a);
+            
+        
+
+        marker_a4559efd3efc5f4104f582cac48d0471.bindPopup(popup_7eb4e4cf3a3868dc16498a773b35b9f4)
+        ;
+
+        
+    
+    
+            marker_a4559efd3efc5f4104f582cac48d0471.bindTooltip(
+                `<div>
+                     Reyneh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42c78360f218b52035916fd96d92ecb6 = L.marker(
+                [35.789, 51.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_42b914e28c4ed9d49f56c594dc907a67 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42c78360f218b52035916fd96d92ecb6.setIcon(icon_42b914e28c4ed9d49f56c594dc907a67);
+        
+    
+        var popup_9cca2c6ff98a0e22c8dde1ffdd20a81e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a453f0af5c7b50dad297e561ddf28d8a = $(`<div id="html_a453f0af5c7b50dad297e561ddf28d8a" style="width: 100.0%; height: 100.0%;">Tangeh Savashi Waterfall<br>Height: 15 meters<br>Sate: Tehran</div>`)[0];
+                popup_9cca2c6ff98a0e22c8dde1ffdd20a81e.setContent(html_a453f0af5c7b50dad297e561ddf28d8a);
+            
+        
+
+        marker_42c78360f218b52035916fd96d92ecb6.bindPopup(popup_9cca2c6ff98a0e22c8dde1ffdd20a81e)
+        ;
+
+        
+    
+    
+            marker_42c78360f218b52035916fd96d92ecb6.bindTooltip(
+                `<div>
+                     Tangeh Savashi Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d95dd7b5934897e6ea0d0bb11750ff5 = L.marker(
+                [32.1234, 50.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_7c6db386206ca23bad5a33f76194a581 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d95dd7b5934897e6ea0d0bb11750ff5.setIcon(icon_7c6db386206ca23bad5a33f76194a581);
+        
+    
+        var popup_c55e03329746ab657da67896a6d590b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e23c43d96bfccf9f3c5a9fe41be4630 = $(`<div id="html_6e23c43d96bfccf9f3c5a9fe41be4630" style="width: 100.0%; height: 100.0%;">Aabsefid Waterfall<br>Height: 60 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_c55e03329746ab657da67896a6d590b7.setContent(html_6e23c43d96bfccf9f3c5a9fe41be4630);
+            
+        
+
+        marker_7d95dd7b5934897e6ea0d0bb11750ff5.bindPopup(popup_c55e03329746ab657da67896a6d590b7)
+        ;
+
+        
+    
+    
+            marker_7d95dd7b5934897e6ea0d0bb11750ff5.bindTooltip(
+                `<div>
+                     Aabsefid Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37b1b763480b4973b6dba9d8063f8e11 = L.marker(
+                [34.5678, 46.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_54b3737feb5928999b9939f4dd0f90ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_37b1b763480b4973b6dba9d8063f8e11.setIcon(icon_54b3737feb5928999b9939f4dd0f90ec);
+        
+    
+        var popup_101e703b31b33e49b014771135ada7e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5882a993832ee8c449be5222f81bfda5 = $(`<div id="html_5882a993832ee8c449be5222f81bfda5" style="width: 100.0%; height: 100.0%;">Khosroabad Waterfall<br>Height: 25 meters<br>Sate: Kermanshah</div>`)[0];
+                popup_101e703b31b33e49b014771135ada7e9.setContent(html_5882a993832ee8c449be5222f81bfda5);
+            
+        
+
+        marker_37b1b763480b4973b6dba9d8063f8e11.bindPopup(popup_101e703b31b33e49b014771135ada7e9)
+        ;
+
+        
+    
+    
+            marker_37b1b763480b4973b6dba9d8063f8e11.bindTooltip(
+                `<div>
+                     Khosroabad Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6766b95ac08954d679f09c53c3aeda85 = L.marker(
+                [36.0123, 50.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_ae64a3d939362a741e751ff662575be2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6766b95ac08954d679f09c53c3aeda85.setIcon(icon_ae64a3d939362a741e751ff662575be2);
+        
+    
+        var popup_5c95eb93a369da40c3a1b91ad4dd39aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_234c7ef63cf1c01bfc37e2077660c19f = $(`<div id="html_234c7ef63cf1c01bfc37e2077660c19f" style="width: 100.0%; height: 100.0%;">Shahandasht Waterfall<br>Height: 40 meters<br>Sate: Alborz</div>`)[0];
+                popup_5c95eb93a369da40c3a1b91ad4dd39aa.setContent(html_234c7ef63cf1c01bfc37e2077660c19f);
+            
+        
+
+        marker_6766b95ac08954d679f09c53c3aeda85.bindPopup(popup_5c95eb93a369da40c3a1b91ad4dd39aa)
+        ;
+
+        
+    
+    
+            marker_6766b95ac08954d679f09c53c3aeda85.bindTooltip(
+                `<div>
+                     Shahandasht Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_205443ed1b191749d6c54e7cbb554cd0 = L.marker(
+                [30.789, 51.1234],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_12d65d36c7f5b4a6b1a3e9bb2e80cc14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_205443ed1b191749d6c54e7cbb554cd0.setIcon(icon_12d65d36c7f5b4a6b1a3e9bb2e80cc14);
+        
+    
+        var popup_f2cf812d6ebcb9f30bee145d773754e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a287ca108b36ed1dfc1bf2e575cd97e8 = $(`<div id="html_a287ca108b36ed1dfc1bf2e575cd97e8" style="width: 100.0%; height: 100.0%;">Chehel Cheshmeh Waterfall<br>Height: 35 meters<br>Sate: Kohgiluyeh and Boyer-Ahmad</div>`)[0];
+                popup_f2cf812d6ebcb9f30bee145d773754e2.setContent(html_a287ca108b36ed1dfc1bf2e575cd97e8);
+            
+        
+
+        marker_205443ed1b191749d6c54e7cbb554cd0.bindPopup(popup_f2cf812d6ebcb9f30bee145d773754e2)
+        ;
+
+        
+    
+    
+            marker_205443ed1b191749d6c54e7cbb554cd0.bindTooltip(
+                `<div>
+                     Chehel Cheshmeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec78a3c122be5a0c794cbddb677f990b = L.marker(
+                [37.2345, 49.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_8690ab3de5b47dd9632c6c66c2d560f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec78a3c122be5a0c794cbddb677f990b.setIcon(icon_8690ab3de5b47dd9632c6c66c2d560f4);
+        
+    
+        var popup_be1fc043f29842c6c01d07de04077080 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_389604fd1bf6b1000ccaf51baaba674c = $(`<div id="html_389604fd1bf6b1000ccaf51baaba674c" style="width: 100.0%; height: 100.0%;">Rudkhan Waterfall<br>Height: 20 meters<br>Sate: Gilan</div>`)[0];
+                popup_be1fc043f29842c6c01d07de04077080.setContent(html_389604fd1bf6b1000ccaf51baaba674c);
+            
+        
+
+        marker_ec78a3c122be5a0c794cbddb677f990b.bindPopup(popup_be1fc043f29842c6c01d07de04077080)
+        ;
+
+        
+    
+    
+            marker_ec78a3c122be5a0c794cbddb677f990b.bindTooltip(
+                `<div>
+                     Rudkhan Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_179cf212785bf7158f952f71d5e45ece = L.marker(
+                [32.4567, 50.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_9222615e9dadef6cf4e2453fed460295 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_179cf212785bf7158f952f71d5e45ece.setIcon(icon_9222615e9dadef6cf4e2453fed460295);
+        
+    
+        var popup_08f64dea63451d9d796e0d36a736d3db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11cd760fa715bf65a1deb69708bb1c2a = $(`<div id="html_11cd760fa715bf65a1deb69708bb1c2a" style="width: 100.0%; height: 100.0%;">Sarab-e Bahram Waterfall<br>Height: 10 meters<br>Sate: Chaharmahal and Bakhtiari</div>`)[0];
+                popup_08f64dea63451d9d796e0d36a736d3db.setContent(html_11cd760fa715bf65a1deb69708bb1c2a);
+            
+        
+
+        marker_179cf212785bf7158f952f71d5e45ece.bindPopup(popup_08f64dea63451d9d796e0d36a736d3db)
+        ;
+
+        
+    
+    
+            marker_179cf212785bf7158f952f71d5e45ece.bindTooltip(
+                `<div>
+                     Sarab-e Bahram Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c50c12b248a77d04feead916aa964c9f = L.marker(
+                [34.789, 48.4567],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_4220abf7fdd684693784af45ab32f5ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c50c12b248a77d04feead916aa964c9f.setIcon(icon_4220abf7fdd684693784af45ab32f5ca);
+        
+    
+        var popup_39aabdfa6ab108a812840496ca67b772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74769999ba4b9db0f021474fd8232ebd = $(`<div id="html_74769999ba4b9db0f021474fd8232ebd" style="width: 100.0%; height: 100.0%;">Ganjnameh Waterfall<br>Height: 12 meters<br>Sate: Hamadan</div>`)[0];
+                popup_39aabdfa6ab108a812840496ca67b772.setContent(html_74769999ba4b9db0f021474fd8232ebd);
+            
+        
+
+        marker_c50c12b248a77d04feead916aa964c9f.bindPopup(popup_39aabdfa6ab108a812840496ca67b772)
+        ;
+
+        
+    
+    
+            marker_c50c12b248a77d04feead916aa964c9f.bindTooltip(
+                `<div>
+                     Ganjnameh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_650845b0822fa887d05b2b65a94b522a = L.marker(
+                [33.0123, 51.789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_4d07e73513f21ab86d986f95b410bf4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_650845b0822fa887d05b2b65a94b522a.setIcon(icon_4d07e73513f21ab86d986f95b410bf4c);
+        
+    
+        var popup_b791bf20508124b7bfffde6608637664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e45caf88c268a8aca0966f8ed07d66b7 = $(`<div id="html_e45caf88c268a8aca0966f8ed07d66b7" style="width: 100.0%; height: 100.0%;">Kuhpayeh Waterfall<br>Height: 18 meters<br>Sate: Isfahan</div>`)[0];
+                popup_b791bf20508124b7bfffde6608637664.setContent(html_e45caf88c268a8aca0966f8ed07d66b7);
+            
+        
+
+        marker_650845b0822fa887d05b2b65a94b522a.bindPopup(popup_b791bf20508124b7bfffde6608637664)
+        ;
+
+        
+    
+    
+            marker_650845b0822fa887d05b2b65a94b522a.bindTooltip(
+                `<div>
+                     Kuhpayeh Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8102a7fbb89b8df4828940370dc01a8c = L.marker(
+                [36.5678, 47.2345],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_f067e98ff7b6cba91703be7b49428e9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8102a7fbb89b8df4828940370dc01a8c.setIcon(icon_f067e98ff7b6cba91703be7b49428e9a);
+        
+    
+        var popup_42a185cf8b11d23e90bf79a9c9dfbef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73978e62cb9b30fef2eaadcd44665081 = $(`<div id="html_73978e62cb9b30fef2eaadcd44665081" style="width: 100.0%; height: 100.0%;">Takht-e Soleyman Waterfall<br>Height: 22 meters<br>Sate: West Azerbaijan</div>`)[0];
+                popup_42a185cf8b11d23e90bf79a9c9dfbef5.setContent(html_73978e62cb9b30fef2eaadcd44665081);
+            
+        
+
+        marker_8102a7fbb89b8df4828940370dc01a8c.bindPopup(popup_42a185cf8b11d23e90bf79a9c9dfbef5)
+        ;
+
+        
+    
+    
+            marker_8102a7fbb89b8df4828940370dc01a8c.bindTooltip(
+                `<div>
+                     Takht-e Soleyman Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7bd68b0b0dee38ec0c1115916f8e373b = L.marker(
+                [36.789, 51.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_5fbc3c921f61b975b7666c82bf020438 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7bd68b0b0dee38ec0c1115916f8e373b.setIcon(icon_5fbc3c921f61b975b7666c82bf020438);
+        
+    
+        var popup_cd2a680244154b6f809b4bcc1c0617ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cff27c6ab9fa0e4bb8da486b058d68e = $(`<div id="html_4cff27c6ab9fa0e4bb8da486b058d68e" style="width: 100.0%; height: 100.0%;">Daland Waterfall<br>Height: 30 meters<br>Sate: Mazandaran</div>`)[0];
+                popup_cd2a680244154b6f809b4bcc1c0617ca.setContent(html_4cff27c6ab9fa0e4bb8da486b058d68e);
+            
+        
+
+        marker_7bd68b0b0dee38ec0c1115916f8e373b.bindPopup(popup_cd2a680244154b6f809b4bcc1c0617ca)
+        ;
+
+        
+    
+    
+            marker_7bd68b0b0dee38ec0c1115916f8e373b.bindTooltip(
+                `<div>
+                     Daland Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1530be76c2b130500fa0eff5360d793f = L.marker(
+                [29.1234, 57.6789],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_f3014e212228cd034b5047f7e9b4d030 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1530be76c2b130500fa0eff5360d793f.setIcon(icon_f3014e212228cd034b5047f7e9b4d030);
+        
+    
+        var popup_4cdab8842d136d144942a1c544687f5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3297beeafbee137dc4753cf93b15ae2c = $(`<div id="html_3297beeafbee137dc4753cf93b15ae2c" style="width: 100.0%; height: 100.0%;">Sefidab Waterfall<br>Height: 15 meters<br>Sate: Kerman</div>`)[0];
+                popup_4cdab8842d136d144942a1c544687f5b.setContent(html_3297beeafbee137dc4753cf93b15ae2c);
+            
+        
+
+        marker_1530be76c2b130500fa0eff5360d793f.bindPopup(popup_4cdab8842d136d144942a1c544687f5b)
+        ;
+
+        
+    
+    
+            marker_1530be76c2b130500fa0eff5360d793f.bindTooltip(
+                `<div>
+                     Sefidab Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a25363bea031e717d2a50db8e903234 = L.marker(
+                [35.4567, 52.0123],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_7ca369ace6337df0689c3cf080852e50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a25363bea031e717d2a50db8e903234.setIcon(icon_7ca369ace6337df0689c3cf080852e50);
+        
+    
+        var popup_cad93eb5b7138570e854bd49bfe2ac60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b0cd7394aa5e2d1c2b6664c9bbbc59d = $(`<div id="html_8b0cd7394aa5e2d1c2b6664c9bbbc59d" style="width: 100.0%; height: 100.0%;">Niyarak Waterfall<br>Height: 10 meters<br>Sate: Tehran</div>`)[0];
+                popup_cad93eb5b7138570e854bd49bfe2ac60.setContent(html_8b0cd7394aa5e2d1c2b6664c9bbbc59d);
+            
+        
+
+        marker_5a25363bea031e717d2a50db8e903234.bindPopup(popup_cad93eb5b7138570e854bd49bfe2ac60)
+        ;
+
+        
+    
+    
+            marker_5a25363bea031e717d2a50db8e903234.bindTooltip(
+                `<div>
+                     Niyarak Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc5205a7cfe8a668b2539a6705a5fe55 = L.marker(
+                [37.0123, 49.5678],
+                {
+}
+            ).addTo(map_98e3cacb109db714e91db5e3d8557b76);
+        
+    
+            var icon_baae9010bc3a5d1672ec85d21874f245 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cc5205a7cfe8a668b2539a6705a5fe55.setIcon(icon_baae9010bc3a5d1672ec85d21874f245);
+        
+    
+        var popup_b88cfe948d762e5fbf5f274a29fd4129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc20e83ab1cdb5c7d826e9537954758a = $(`<div id="html_bc20e83ab1cdb5c7d826e9537954758a" style="width: 100.0%; height: 100.0%;">Vezg Waterfall<br>Height: 25 meters<br>Sate: Gilan</div>`)[0];
+                popup_b88cfe948d762e5fbf5f274a29fd4129.setContent(html_bc20e83ab1cdb5c7d826e9537954758a);
+            
+        
+
+        marker_cc5205a7cfe8a668b2539a6705a5fe55.bindPopup(popup_b88cfe948d762e5fbf5f274a29fd4129)
+        ;
+
+        
+    
+    
+            marker_cc5205a7cfe8a668b2539a6705a5fe55.bindTooltip(
+                `<div>
+                     Vezg Waterfall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
